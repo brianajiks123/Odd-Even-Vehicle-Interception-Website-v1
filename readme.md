@@ -26,7 +26,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Odd-Even-Vehicle-Interception-Website-v1
 ```
 
 Create .env file and store your OCR Space API
