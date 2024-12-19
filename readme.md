@@ -10,9 +10,9 @@ Implementation of LNPR based on a website application using the YOLO model provi
 - Reporting Based On Date
 ## Screenshots
 
-![App Screenshot](./documentation/older%20version/Show.png)
-![App Screenshot](./documentation/older%20version/Detect.png)
-![App Screenshot](./documentation/older%20version/report.png)
+![App Screenshot1](./documentation/older%20version/Show.png)
+![App Screenshot2](./documentation/older%20version/Detect.png)
+![App Screenshot3](./documentation/older%20version/report.png)
 
 
 ## Run Locally
