@@ -20,7 +20,7 @@ Implementation of LNPR based on a website application using the YOLO model provi
 Clone the project
 
 ```bash
-  git clone [https://link-to-project](https://github.com/brianajiks123/Odd-Even-Vehicle-Interception-Website-v1.git)
+  git clone https://github.com/brianajiks123/Odd-Even-Vehicle-Interception-Website-v1.git
 ```
 
 Go to the project directory
