@@ -1,0 +1,94 @@
+2025-06-20 02:54:20,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.27:5000
+2025-06-20 02:54:20,595 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 02:54:28,768 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:28] "GET / HTTP/1.1" 200 -
+2025-06-20 02:54:29,006 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:54:29,019 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:29] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:54:29,042 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:54:29,045 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:54:44,225 - INFO - File uploaded: static\uploads\20250620025444_194c212379c7fb6d2c63a443da081791.jpeg
+2025-06-20 02:54:44,226 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-06-20 02:54:44,232 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "GET /show/20250620025444_194c212379c7fb6d2c63a443da081791.jpeg HTTP/1.1" 200 -
+2025-06-20 02:54:44,248 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:54:44,250 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:54:44,255 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:54:44,259 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:54:44,268 - INFO - 127.0.0.1 - - [20/Jun/2025 02:54:44] "GET /static/uploads/20250620025444_194c212379c7fb6d2c63a443da081791.jpeg HTTP/1.1" 200 -
+2025-06-20 02:55:43,026 - INFO - Image path: static\uploads\20250620025444_194c212379c7fb6d2c63a443da081791.jpeg
+2025-06-20 02:55:45,896 - INFO - Predicted image saved at: static\predict\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:55:45,897 - INFO - Moved crop file to: static\predict\crops\license-plate\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:55:45,898 - INFO - Successfully predicted image: static\uploads\20250620025444_194c212379c7fb6d2c63a443da081791.jpeg
+2025-06-20 02:55:45,898 - INFO - Rendering detect.html with image_predicted: predict/20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:55:45,903 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "POST /detect HTTP/1.1" 200 -
+2025-06-20 02:55:45,915 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:55:45,918 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:55:45,926 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:55:45,932 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:55:45,935 - INFO - 127.0.0.1 - - [20/Jun/2025 02:55:45] "GET /static/predict/20250620025444_194c212379c7fb6d2c63a443da081791.jpg HTTP/1.1" 200 -
+2025-06-20 02:56:39,013 - INFO - OCR successful for static\predict\crops\license-plate\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:56:39,013 - INFO - Report generated: BD 1484 CG
+2025-06-20 02:56:39,013 - INFO - Loading image for report: static\predict\crops\license-plate\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:56:39,018 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "POST /report HTTP/1.1" 200 -
+2025-06-20 02:56:39,030 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:56:39,033 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:56:39,045 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:56:39,045 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "GET /static/predict/crops/license-plate/20250620025444_194c212379c7fb6d2c63a443da081791.jpg HTTP/1.1" 200 -
+2025-06-20 02:56:39,048 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:56:39,049 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/js/html2canvas.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:56:39,054 - INFO - 127.0.0.1 - - [20/Jun/2025 02:56:39] "[36mGET /static/js/jspdf.umd.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:57:16,982 - INFO - 127.0.0.1 - - [20/Jun/2025 02:57:16] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:57:16,985 - INFO - 127.0.0.1 - - [20/Jun/2025 02:57:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:57:16,988 - INFO - 127.0.0.1 - - [20/Jun/2025 02:57:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:57:16,991 - INFO - 127.0.0.1 - - [20/Jun/2025 02:57:16] "[36mGET /static/predict/crops/license-plate/20250620025444_194c212379c7fb6d2c63a443da081791.jpg HTTP/1.1[0m" 304 -
+2025-06-20 02:58:41,404 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:41] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:58:41,407 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:41] "[36mGET /static/predict/crops/license-plate/20250620025444_194c212379c7fb6d2c63a443da081791.jpg HTTP/1.1[0m" 304 -
+2025-06-20 02:58:41,408 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:58:41,415 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:58:56,573 - INFO - Deleted file: static\uploads\20250620025444_194c212379c7fb6d2c63a443da081791.jpeg
+2025-06-20 02:58:56,573 - INFO - Deleted file: static\predict\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:58:56,575 - INFO - Deleted file: static\predict\crops\license-plate\20250620025444_194c212379c7fb6d2c63a443da081791.jpg
+2025-06-20 02:58:56,576 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:56] "GET / HTTP/1.1" 200 -
+2025-06-20 02:58:56,590 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:58:56,591 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:58:56,595 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:56] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:58:56,603 - INFO - 127.0.0.1 - - [20/Jun/2025 02:58:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:01,570 - INFO - File uploaded: static\uploads\20250620025901_Screenshot_2025-06-20_024409.png
+2025-06-20 02:59:01,572 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-06-20 02:59:01,577 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "GET /show/20250620025901_Screenshot_2025-06-20_024409.png HTTP/1.1" 200 -
+2025-06-20 02:59:01,590 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:01,592 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:01,599 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:59:01,602 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:01,613 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:01] "GET /static/uploads/20250620025901_Screenshot_2025-06-20_024409.png HTTP/1.1" 200 -
+2025-06-20 02:59:02,748 - INFO - Image path: static\uploads\20250620025901_Screenshot_2025-06-20_024409.png
+2025-06-20 02:59:02,934 - INFO - Predicted image saved at: static\predict\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:02,935 - INFO - Moved crop file to: static\predict\crops\license-plate\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:02,936 - INFO - Successfully predicted image: static\uploads\20250620025901_Screenshot_2025-06-20_024409.png
+2025-06-20 02:59:02,936 - INFO - Rendering detect.html with image_predicted: predict/20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:02,937 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "POST /detect HTTP/1.1" 200 -
+2025-06-20 02:59:02,953 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:02,953 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:02,957 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:02,960 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:59:02,966 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:02] "GET /static/predict/20250620025901_Screenshot_2025-06-20_024409.jpg HTTP/1.1" 200 -
+2025-06-20 02:59:05,515 - INFO - OCR successful for static\predict\crops\license-plate\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:05,516 - INFO - Report generated: B 1791 SSM
+2025-06-20 02:59:05,516 - INFO - Loading image for report: static\predict\crops\license-plate\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:05,517 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "POST /report HTTP/1.1" 200 -
+2025-06-20 02:59:05,531 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:05,534 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:05,536 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "GET /static/predict/crops/license-plate/20250620025901_Screenshot_2025-06-20_024409.jpg HTTP/1.1" 200 -
+2025-06-20 02:59:05,544 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:59:05,545 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:05,550 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/js/html2canvas.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:05,558 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:05] "[36mGET /static/js/jspdf.umd.min.js HTTP/1.1[0m" 304 -
+2025-06-20 02:59:56,284 - INFO - Deleted file: static\uploads\20250620025901_Screenshot_2025-06-20_024409.png
+2025-06-20 02:59:56,285 - INFO - Deleted file: static\predict\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:56,287 - INFO - Deleted file: static\predict\crops\license-plate\20250620025901_Screenshot_2025-06-20_024409.jpg
+2025-06-20 02:59:56,288 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:56] "GET / HTTP/1.1" 200 -
+2025-06-20 02:59:56,303 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:56,311 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:56] "[36mGET /static/images/UNAKI.png HTTP/1.1[0m" 304 -
+2025-06-20 02:59:56,315 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-06-20 02:59:56,316 - INFO - 127.0.0.1 - - [20/Jun/2025 02:59:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -

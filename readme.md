@@ -6,11 +6,12 @@ Implementation of LNPR based on a website application using the YOLO model provi
 
 - 🇮🇩 Only Indonesian Vehicle
 - 📝 Extract Text From Image
-- 📅 Reporting Based On Date
+- 📅 Reporting Based On Date (such as download PDF)
 
 ## Screenshots 📷
 
-![App Screenshot3](./documentation/older%20version/report.png)
+![Report No](./documentation/4_a_report_no.png)
+![Report Yes](./documentation/4_b_report_yes.png)
 
 ## Run Locally 🖥️
 
@@ -29,7 +30,8 @@ cd Odd-Even-Vehicle-Interception-Website-v1
 Create .env file and store your OCR Space API 🔑
 
 ``` bash
-OCR_API_KEY=K875xxx
+OCR_API_KEY=your_ocr_api_key
+SECRET_KEY=your_random_secret_key
 ```
 
 Create Virtual Environment (make sure using Python version >= 3.8) 🐍
